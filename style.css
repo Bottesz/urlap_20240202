@@ -1,0 +1,58 @@
+#kot_m label::after{
+    content:"*";
+    color:red;
+}
+
+#kot_m input{
+    float: right;
+    clear: both;
+    margin-right: 150px;
+
+}
+
+legend{
+    border: 1px solid black;
+    background-color:cyan ;
+    color: black;
+    border-radius: 10px;
+}
+
+body{
+    margin: auto;
+    width: 45%;
+    
+}
+
+
+form{
+    background-color:rgb(243, 235, 235);
+}
+
+
+
+fieldset{
+    background-color: rgb(173, 209, 209);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+#szuletes>input{
+    float: right;
+    clear: both;
+    margin-right: 190px;
+    
+}
+
+.kulon{
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+
+
+@media only screen (max-width:720px){
+
+}
